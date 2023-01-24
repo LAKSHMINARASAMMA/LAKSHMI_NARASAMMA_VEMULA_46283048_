@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <p id="sum"></p>
+    <script>
+    let n = prompt("Please enter a number");
+    let sum=0;
+    let text=""
+    for(let i=0;i<=n;i++){
+        sum+=i;
+        }
+         window.alert(sum)
+          document.write("sum of numbers using for loop is "+sum);
+          document.write("<br>")
+          let i1=0;
+          let sum1=0;
+           while(i1<=n){
+            sum1+=i1
+            i1++;
+        }
+        document.write("sum of numbers using while loop is "+sum1);
+        document.write("<br>")
+         i2=0;
+         let sum2=0;
+         do{
+             sum2+=i2;
+              i2++;
+             }
+             while(i2<=n);
+          document.write("sum of numbers using do while loop is "+sum2);
+        </script>
+    </body>
+</html>
